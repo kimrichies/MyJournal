@@ -101,15 +101,15 @@ public class MainActivity extends AppCompatActivity {
         progressDialog = new ProgressDialog(MainActivity.this);
 
 
-        signInButton = (SignInButton) findViewById(R.id.sign_in_button);
+        signInButton = findViewById(R.id.sign_in_button);
 
-        SignOutButton= (Button) findViewById(R.id.sign_out);
+        SignOutButton= findViewById(R.id.sign_out);
 
-        LoginUserName = (TextView) findViewById(R.id.textViewName);
+        LoginUserName =  findViewById(R.id.textViewName);
 
-        LoginUserEmail = (TextView) findViewById(R.id.textViewEmail);
+        LoginUserEmail =  findViewById(R.id.textViewEmail);
 
-        signInButton = (com.google.android.gms.common.SignInButton)findViewById(R.id.sign_in_button);
+        signInButton = findViewById(R.id.sign_in_button);
 
         // Getting Firebase Auth Instance into firebaseAuth object.
         firebaseAuth = FirebaseAuth.getInstance();
@@ -311,7 +311,7 @@ public class MainActivity extends AppCompatActivity {
 
 
                             // Setting up name into TextView.
-                            LoginUserName.setText("NAME =  "+ firebaseUser.getDisplayName().toString());
+                            LoginUserName.setText("NAME =  "+ firebaseUser.getDisplayName());
 
                             // Setting up Email into TextView.
                             LoginUserEmail.setText("Email =  "+ firebaseUser.getEmail().toString());

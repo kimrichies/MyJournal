@@ -65,7 +65,7 @@ public class JournalProvider extends ContentProvider {
     // class that creates and manages the provider's database
     private static class DBHelper extends SQLiteOpenHelper {
 
-        public DBHelper(Context context) {
+        private DBHelper(Context context) {
             super(context, DATABASE_NAME, null, DATABASE_VERSION);
         }
 
