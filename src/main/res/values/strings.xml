@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Journal App</string>
+    <string name="signout">Sign Out</string>
+    <string name="add">Add Note</string>
+    <string name="view">View Notes</string>
+    <string name="notify">Notifications</string>
+
+    <!--Adding notes strings -->
+    <string name="note_title">  Enter title of your Note</string>
+    <string name="note_grateful">What are you grateful for Today?</string>
+    <string name="note_do">What did you do for someone else Today?</string>
+    <string name="note_feel">How do you feel now?</string>
+    <string name="note_save">Save</string>
+
+
+
+</resources>
