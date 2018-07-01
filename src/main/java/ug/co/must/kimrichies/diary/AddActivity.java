@@ -69,7 +69,7 @@ public class AddActivity extends AppCompatActivity implements View.OnClickListen
         dialog.setTitle("You have Added a Note");
 
         TextView text = (TextView) dialog.findViewById(R.id.viewText);
-        text.setText(" Your New Note has Been Added");
+        text.setText(getString(R.string.added)); //(" Your New Note has Been Added");
 
         Button dialogButton = (Button) dialog.findViewById(R.id.OK);
         // if the ok button is clicked, close the custom dialog

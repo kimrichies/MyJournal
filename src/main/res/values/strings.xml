@@ -4,6 +4,7 @@
     <string name="add">Add Note</string>
     <string name="view">View Notes</string>
     <string name="notify">Notifications</string>
+    <string name="added">Your New Note has Been Added</string>
 
     <!--Adding notes strings -->
     <string name="note_title">  Enter title of your Note</string>
